@@ -832,3 +832,231 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
 [15Jun 12:38:37] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
 [15Jun 12:38:38] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:48:39] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:48:43] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:49:06] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:49:08] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:50:34] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:50:36] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:54:30] WARNING [django.request:222] Not Found: /search/cars/4161094f-f36b-496e-a1b0-bc01f251ed27
+[15Jun 12:54:40] WARNING [django.request:222] Not Found: /search/cars/4161094f-f36b-496e-a1b0-bc01f251ed27
+[15Jun 12:54:42] WARNING [django.request:222] Not Found: /search/cars/4161094f-f36b-496e-a1b0-bc01f251ed27
+[15Jun 12:55:32] WARNING [django.request:222] Not Found: /search/cars/86df6e8d-4a20-4354-b5b2-b91e772dab47
+[15Jun 12:57:51] WARNING [django.request:222] Not Found: /search/cars/462af466-a293-4f36-889b-735c5186a3db
+[15Jun 12:58:01] WARNING [django.request:222] Not Found: /search/cars/462af466-a293-4f36-889b-735c5186a3db
+[15Jun 12:58:14] WARNING [django.request:222] Not Found: /search/cars/462af466-a293-4f36-889b-735c5186a3db
+[15Jun 12:59:41] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[15Jun 12:59:43] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 13:00:00] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[15Jun 13:00:02] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 13:00:04] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:03:15] ERROR [django.request:222] Internal Server Error: /car_list/cars/about_us/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2313, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "C:\code\lib\uuid.py", line 169, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\detail.py", line 106, in get
+    self.object = self.get_object()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\detail.py", line 36, in get_object
+    queryset = queryset.filter(pk=pk)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2297, in get_prep_value
+    return self.to_python(value)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2315, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“about_us” is not a valid UUID.']
+[15Jun 13:04:22] ERROR [django.request:222] Internal Server Error: /car_list/cars/about_us/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2313, in to_python
+    return uuid.UUID(**{input_form: value})
+  File "C:\code\lib\uuid.py", line 169, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\detail.py", line 106, in get
+    self.object = self.get_object()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\views\generic\detail.py", line 36, in get_object
+    queryset = queryset.filter(pk=pk)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1378, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\sql\query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2297, in get_prep_value
+    return self.to_python(value)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2315, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“about_us” is not a valid UUID.']
+[15Jun 13:05:03] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:05:07] WARNING [django.request:222] Not Found: /car_list/about_us
+[15Jun 13:05:24] WARNING [django.request:222] Not Found: /car_list/about_us
+[15Jun 13:05:24] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:05:27] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:06:15] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 13:06:18] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:11:07] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:11:34] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:36:32] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:36:56] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:37:11] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:37:23] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:37:47] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:38:01] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:38:18] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:38:33] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:38:54] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:39:16] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:39:26] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:39:35] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:52:36] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:53:23] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:53:53] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:56:15] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:56:39] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:56:55] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:58:16] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:59:16] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 13:59:56] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:00:24] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:00:58] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:01:18] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:01:50] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:02:21] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:02:57] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:03:38] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:03:59] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:04:27] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:04:54] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:06:04] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:06:44] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:07:07] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:07:46] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:09:03] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:09:35] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:10:16] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:10:46] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:11:27] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:11:47] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:12:08] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:13:16] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:13:37] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:14:37] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:19:19] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:19:47] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:23:26] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:23:59] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:24:35] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:24:51] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:28:37] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:29:32] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:29:48] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:30:12] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:30:49] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:34:57] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:35:15] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:35:36] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:38:22] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:38:49] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:41:24] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:42:00] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:42:31] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:43:06] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:52:33] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:53:35] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:53:49] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:54:22] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:54:56] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:59:31] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 14:59:58] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:00:20] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:00:36] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:00:52] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:01:13] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:01:32] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:02:07] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:05:08] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:06:33] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:06:45] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:12:02] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:12:40] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:12:59] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:13:18] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:48:33] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 15:49:54] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:11:04] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:11:45] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:12:14] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:12:50] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:13:05] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:13:30] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:15:50] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:15:59] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:16:18] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:17:03] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 16:17:07] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 16:17:08] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:23:59] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:24:19] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:25:00] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:25:21] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:25:27] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:25:49] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:26:30] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:26:45] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:28:07] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 16:31:08] WARNING [django.request:222] Not Found: /favicon.ico

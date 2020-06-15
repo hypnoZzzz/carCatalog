@@ -20,6 +20,7 @@ urlpatterns = [
     path('audi/', AudiListView.as_view()),
     path('cars/<str:pk>/', CarView.as_view()),
     path('car_list/cars/<str:pk>/', CarView.as_view()),
+    path('search/cars/<str:pk>/', CarView.as_view()),
     path('about_us/', IndexPageView.as_view()),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

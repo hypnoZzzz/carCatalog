@@ -8,8 +8,7 @@ from carApp.models import Car
 
 
 class Search(ListView):
-
-    paginate_by = 2
+    template_name = 'cars/car_list.html'
 
     def get_queryset(self):
         return Car.objects.filter(Q(brand__icontains=self.request.GET.get('q')) |
