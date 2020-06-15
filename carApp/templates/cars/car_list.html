@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+{% block content %}
+<div class="main-content">
+    <br>
+    <div class="container">
+        <div class="row">
+            {% for car in object_list %}                       
+                <div class="col-sm-6">
+                    <a href="cars/{{car.pk}}">
+                        <img max-height="225" width="400"
+                            src="{{ car.photo.url }}" alt="" class="fit">
+                    </a>
+                    <div class="car-bio-text">
+                        {{car.brand}} {{car.car_model}}
+                    </div>
+                </div>
+            {%endfor%}                       
+        </div>      
+    </div>
+    <br>    
+</div>
+{% endblock %}

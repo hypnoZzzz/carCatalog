@@ -1,0 +1,834 @@
+[13Jun 18:35:14] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:35:21] WARNING [django.request:222] Not Found: /favicon.ico
+[13Jun 18:40:42] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[13Jun 18:40:44] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:40:54] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[13Jun 18:40:56] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:41:25] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[13Jun 18:41:26] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:45:02] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:45:54] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:45:57] WARNING [django.request:222] Not Found: /favicon.ico
+[13Jun 18:49:57] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:50:04] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:50:05] ERROR [django.request:222] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:52:21] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[13Jun 18:52:24] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:52:27] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:52:28] ERROR [django.request:222] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:52:30] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:52:30] ERROR [django.request:222] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\finders.py", line 130, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\contrib\staticfiles\utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\files\storage.py", line 316, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'F:\\DjangoProjects\\carCatalog\\carCatalog\\static'
+[13Jun 18:53:02] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\urls.py changed, reloading.
+[13Jun 18:53:04] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:53:21] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\settings.py changed, reloading.
+[13Jun 18:53:24] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[13Jun 18:53:30] WARNING [django.request:222] Not Found: /favicon.ico
+[13Jun 18:57:39] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'url' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[13Jun 18:57:40] WARNING [django.request:222] Not Found: /favicon.ico
+[13Jun 18:57:58] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:46:16] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 11:46:21] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:48:05] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% url 'search/' %' from '% url 'search/' %'
+[15Jun 11:48:06] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:51:39] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search'%' from '%url 'search'%'
+[15Jun 11:51:40] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:51:40] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search'%' from '%url 'search'%'
+[15Jun 11:51:41] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:52:19] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search', name='search'%' from '%url 'search', name='search'%'
+[15Jun 11:52:19] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 11:52:51] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search'%' from '%url 'search'%'
+[15Jun 11:52:52] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:01:05] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search' get_queryset%' from '%url 'search' get_queryset%'
+[15Jun 12:01:06] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:02:24] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'search' as the_url%' from '%url 'search' as the_url%'
+[15Jun 12:02:25] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:03:37] ERROR [django.request:222] Internal Server Error: /car_list/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 448, in parse
+    raise self.error(token, e)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 446, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 562, in compile_filter
+    return FilterExpression(token, self)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\base.py", line 661, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '%url 'carApp:Search'%' from '%url 'carApp:Search'%'
+[15Jun 12:03:38] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:10:19] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:10:22] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:12:33] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:12:43] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:13:17] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:17:41] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\settings.py changed, reloading.
+[15Jun 12:17:43] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:18:00] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carCatalog\settings.py changed, reloading.
+[15Jun 12:18:02] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:18:06] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:18:07] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:18:11] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:20:10] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:25:16] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:25:17] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:25:21] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:30:58] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:31:03] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:35:49] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\models.py changed, reloading.
+[15Jun 12:35:50] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:38:16] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:38:17] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[15Jun 12:38:24] WARNING [django.request:222] Not Found: /favicon.ico
+[15Jun 12:38:27] ERROR [django.request:222] Internal Server Error: /search/
+Traceback (most recent call last):
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "F:\DjangoProjects\carCatalog\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: carApp/car_list.html
+[15Jun 12:38:37] INFO [django.utils.autoreload:222] F:\DjangoProjects\carCatalog\carCatalog\carApp\views.py changed, reloading.
+[15Jun 12:38:38] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader

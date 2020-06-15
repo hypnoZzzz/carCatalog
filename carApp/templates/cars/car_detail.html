@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="main-content">
+    <div class="col-lg-4 detail-photo">
+        <a href="#">
+            <img max-height="400" max-width="600"
+                 src="{{ object.photo.url }}" alt="" class="fit" style="padding-top: 50px;">
+        </a>
+    </div>
+    <div class="car-text-detail submenu">
+        <ul>
+            <li>марка: {{object.brand}},</li>
+            <li>модель: {{object.car_model}},</li>
+            <li>трансмиссия: {{object.transmission}}</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
